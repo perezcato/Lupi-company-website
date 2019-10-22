@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Lupi-company-website/static/css/main.c7efe749.chunk.css",
+    "main.js": "/Lupi-company-website/static/js/main.8a3856a9.chunk.js",
+    "main.js.map": "/Lupi-company-website/static/js/main.8a3856a9.chunk.js.map",
+    "runtime-main.js": "/Lupi-company-website/static/js/runtime-main.587e4465.js",
+    "runtime-main.js.map": "/Lupi-company-website/static/js/runtime-main.587e4465.js.map",
+    "static/js/2.ecb43e2b.chunk.js": "/Lupi-company-website/static/js/2.ecb43e2b.chunk.js",
+    "static/js/2.ecb43e2b.chunk.js.map": "/Lupi-company-website/static/js/2.ecb43e2b.chunk.js.map",
+    "index.html": "/Lupi-company-website/index.html",
+    "precache-manifest.cc4e8161a660f6b594030f45315bc996.js": "/Lupi-company-website/precache-manifest.cc4e8161a660f6b594030f45315bc996.js",
+    "service-worker.js": "/Lupi-company-website/service-worker.js",
+    "static/css/main.c7efe749.chunk.css.map": "/Lupi-company-website/static/css/main.c7efe749.chunk.css.map",
+    "static/media/application.svg": "/Lupi-company-website/static/media/application.55d17660.svg",
+    "static/media/differentiation.svg": "/Lupi-company-website/static/media/differentiation.f23bb136.svg",
+    "static/media/diversify.svg": "/Lupi-company-website/static/media/diversify.c6ccd45f.svg",
+    "static/media/login.svg": "/Lupi-company-website/static/media/login.d7eba964.svg",
+    "static/media/poster.svg": "/Lupi-company-website/static/media/poster.f9d51d43.svg",
+    "static/media/programming.svg": "/Lupi-company-website/static/media/programming.9665ba2f.svg",
+    "static/media/support.svg": "/Lupi-company-website/static/media/support.f8c665d3.svg",
+    "static/media/technical-support.svg": "/Lupi-company-website/static/media/technical-support.34e9ea3b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.587e4465.js",
+    "static/js/2.ecb43e2b.chunk.js",
+    "static/css/main.c7efe749.chunk.css",
+    "static/js/main.8a3856a9.chunk.js"
+  ]
+}
