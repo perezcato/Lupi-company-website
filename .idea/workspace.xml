@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da56aece-f944-4504-995e-914586361bcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NextProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NextProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SimpleInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SimpleInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UiElements/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UiElements/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WhyUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
-    </list>
+    <list default="true" id="da56aece-f944-4504-995e-914586361bcd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -244,18 +232,17 @@
       <workItem from="1571593887614" duration="848000" />
       <workItem from="1571607055248" duration="158000" />
       <workItem from="1571607233580" duration="54000" />
-      <workItem from="1571607340978" duration="42057000" />
+      <workItem from="1571607340978" duration="42260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57310000" />
+    <option name="totallyTimeSpent" value="57513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -269,7 +256,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2879518" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2879518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
