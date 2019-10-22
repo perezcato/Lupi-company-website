@@ -1,6 +1,7 @@
 body{
     background-color: rgb(0, 0, 15);
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Iceland', cursive;
     color: white;
     margin: 0;
     padding: 0;
@@ -18,11 +19,48 @@ body{
     box-sizing: border-box;
 }
 
+.b-btn{
+    background-color: #060c21;
+    border: none;
+}
+
+.b-btn:before,
+.b-btn:after{
+    background-color: #ffffff;
+    background-image: linear-gradient(
+            235deg,
+            #89ff00,
+            #060c21,
+            #00bcd4
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: '';
+}
+
+.b-btn:before{
+    z-index: -1;
+}
+
+.b-btn:after{
+    z-index: -2;
+    filter: blur(5px);
+}
+
+.z-3{
+    z-index: -3;
+}
+
+
 canvas {
     width: 100%;
     min-height: 700px;
     height: 100% !important;
 }
+
 
 /**
  * ----------------------------------------
@@ -280,24 +318,27 @@ canvas {
         text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
     }
 }
-
-
 .text {
     -webkit-animation: text-flicker-out-glow 5s linear  both;
     animation: text-flicker-out-glow 5s linear  both;
-    animation-delay: 2s;
-    font-size: 4.5rem;
-    line-height: 5.0rem;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 3.2rem;
+}
+
+.l-nospacing{
+    word-spacing: -1.7rem;
+}
+
+.font-5xl{
+    font-size: 4rem;
 }
 
 .h-65{
     height: 40rem;
 }
-
 .h-63{
     height: 27rem;
 }
-
 .box:before,
 .box:after {
     background-color: #ffffff;
@@ -314,27 +355,22 @@ canvas {
     right: -2px;
     top: -2px;
 }
-
 .box:before {
     z-index: -1;
 }
-
 .box {
     background-color: #060c21;
     height: 20rem;
     position: relative;
     width: 23%;
 }
-
 .box:after {
     filter: blur(2px);
     z-index: -2;
 }
-
 .bg-gray-1000{
     background-color: rgba(0, 0, 25, 0.9);
 }
-
 @keyframes glow {
     0% {
         background: #4CAF50;
@@ -357,23 +393,19 @@ canvas {
         background: #00a0b8;
     }
 }
-
 .btn-green{
     background-color: #4CAF50;
     border: none;
     z-index: 2;
 }
-
 .btn-blue{
     background-color: #00a0b8;
     border: none;
     z-index: 2;
 }
-
 .btn-green:hover {
     animation: glow 2s linear infinite;
 }
-
 .btn-green:before{
     animation: glow 2s linear infinite;
     background-color: #4CAF50;
@@ -389,16 +421,13 @@ canvas {
     right: 0;
     z-index: -1;
 }
-
 .btn-green:before:hover{
     opacity: 1;
     filter: blur(40px);
 }
-
 .btn-blue:hover {
     animation: glowBlue 2s linear infinite;
 }
-
 .btn-blue:before{
     animation: glowBlue 2s linear infinite;
     background-color: #4CAF50;
@@ -414,9 +443,218 @@ canvas {
     right: 0;
     z-index: -1;
 }
-
 .btn-blue:before:hover{
     opacity: 1;
     filter: blur(40px);
 }
+.on{
+    opacity: 1;
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.45), 0 0 14px rgba(255, 255, 255, 0.25);
+}
 
+/*Glitching Text*/
+@keyframes noise-anim {
+    0% {
+        clip: rect(7px, 9999px, 13px, 0);
+    }
+    5% {
+        clip: rect(55px, 9999px, 35px, 0);
+    }
+    10% {
+        clip: rect(83px, 9999px, 55px, 0);
+    }
+    15% {
+        clip: rect(7px, 9999px, 97px, 0);
+    }
+    20% {
+        clip: rect(80px, 9999px, 37px, 0);
+    }
+    25% {
+        clip: rect(14px, 9999px, 37px, 0);
+    }
+    30% {
+        clip: rect(88px, 9999px, 48px, 0);
+    }
+    35% {
+        clip: rect(49px, 9999px, 25px, 0);
+    }
+    40% {
+        clip: rect(59px, 9999px, 66px, 0);
+    }
+    45% {
+        clip: rect(33px, 9999px, 66px, 0);
+    }
+    50% {
+        clip: rect(6px, 9999px, 55px, 0);
+    }
+    55% {
+        clip: rect(6px, 9999px, 39px, 0);
+    }
+    60% {
+        clip: rect(87px, 9999px, 80px, 0);
+    }
+    65% {
+        clip: rect(7px, 9999px, 45px, 0);
+    }
+    70% {
+        clip: rect(49px, 9999px, 90px, 0);
+    }
+    75% {
+        clip: rect(9px, 9999px, 29px, 0);
+    }
+    80% {
+        clip: rect(92px, 9999px, 6px, 0);
+    }
+    85% {
+        clip: rect(55px, 9999px, 89px, 0);
+    }
+    90% {
+        clip: rect(21px, 9999px, 45px, 0);
+    }
+    95% {
+        clip: rect(30px, 9999px, 98px, 0);
+    }
+    100% {
+        clip: rect(33px, 9999px, 39px, 0);
+    }
+}
+@keyframes noise-anim-2 {
+    0% {
+        clip: rect(3px, 9999px, 87px, 0);
+    }
+    5% {
+        clip: rect(2px, 9999px, 84px, 0);
+    }
+    10% {
+        clip: rect(27px, 9999px, 91px, 0);
+    }
+    15% {
+        clip: rect(94px, 9999px, 91px, 0);
+    }
+    20% {
+        clip: rect(18px, 9999px, 85px, 0);
+    }
+    25% {
+        clip: rect(3px, 9999px, 20px, 0);
+    }
+    30% {
+        clip: rect(31px, 9999px, 36px, 0);
+    }
+    35% {
+        clip: rect(92px, 9999px, 33px, 0);
+    }
+    40% {
+        clip: rect(22px, 9999px, 73px, 0);
+    }
+    45% {
+        clip: rect(60px, 9999px, 19px, 0);
+    }
+    50% {
+        clip: rect(85px, 9999px, 25px, 0);
+    }
+    55% {
+        clip: rect(13px, 9999px, 47px, 0);
+    }
+    60% {
+        clip: rect(7px, 9999px, 31px, 0);
+    }
+    65% {
+        clip: rect(87px, 9999px, 54px, 0);
+    }
+    70% {
+        clip: rect(1px, 9999px, 11px, 0);
+    }
+    75% {
+        clip: rect(32px, 9999px, 25px, 0);
+    }
+    80% {
+        clip: rect(11px, 9999px, 67px, 0);
+    }
+    85% {
+        clip: rect(15px, 9999px, 100px, 0);
+    }
+    90% {
+        clip: rect(79px, 9999px, 95px, 0);
+    }
+    95% {
+        clip: rect(46px, 9999px, 28px, 0);
+    }
+    100% {
+        clip: rect(34px, 9999px, 74px, 0);
+    }
+}
+.glitch-text{
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+}
+
+.glitch-text:after{
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+.glitch-text:before{
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+
+/*About Section*/
+
+.form-card{
+    background-color: #060c21;
+}
+
+.form-card:before,
+.form-card:after{
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    background-image: linear-gradient(
+            235deg,
+            #89ff00,
+            #060c21,
+            #00bcd4
+    );
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+
+}
+
+.form-card:before{
+    z-index: -1;
+}
+
+.form-card:after{
+    filter: blur(5px);
+    z-index: -2;
+}
+
+.form-select{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+/*footer*/
+
+.h-equal {
+    height: 33.33%
+}

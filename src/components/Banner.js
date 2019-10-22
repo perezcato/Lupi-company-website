@@ -1,6 +1,8 @@
 import React from 'react';
 import Particle from '../helpers/Particle';
 
+import Button from "./UiElements/Button";
+
 // import lupi from '../assets/images/lupipic.svg';
 
 export default class Banner extends React.Component{
@@ -76,9 +78,14 @@ export default class Banner extends React.Component{
                     </header>
 
                     <div className="content w-full lg:px-24 lg:text-center lg:mt-32">
-                        <h1 className="font-bold uppercase text"> Creative people, </h1>
-                        <h1 className="font-bold uppercase text"> innovative ideas, </h1>
-                        <h1 className="font-bold uppercase text"> New Technology. </h1>
+                        <h1 className="font-bold uppercase text text-3xl"> Creative people, </h1>
+                        <h1 className="font-bold uppercase text font-5xl"> innovative ideas, </h1>
+                        <h1 className="font-bold uppercase text text-3xl"> New Technology. </h1>
+                    </div>
+
+                    <div className="banner-btn w-full text-xl flex justify-center items-center mt-12 ">
+                        <Button><span className="on"> Get Started </span> </Button>
+                        <Button><span className="on" >Learn More</span></Button>
                     </div>
                 </div>
             </section>

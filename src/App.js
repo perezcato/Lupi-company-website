@@ -3,6 +3,11 @@ import React, {useEffect} from 'react';
 import Banner from './components/Banner';
 import HomeServices from './components/HomeServices';
 import SimpleInfo from './components/SimpleInfo';
+import WhyUs from './components/WhyUs';
+import NextProject from './components/NextProject';
+import HomeAbout from './components/HomeAbout';
+import Footer from './components/Footer';
+
 //import Header from './components/Header';
 
 function App() {
@@ -14,13 +19,10 @@ function App() {
         window.onscroll = () => {
             let HServicesHeight = HServices.getBoundingClientRect().top;
 
-            //console.log(HServicesHeight);
             if(HServicesHeight < viewPortHeight){
-                alert('reached viewport range');
+                console.log('reached viewport range');
             }
         }
-
-
     });
 
   return (
@@ -29,6 +31,10 @@ function App() {
         <Banner />
         <HomeServices/>
         <SimpleInfo/>
+        <WhyUs/>
+        <NextProject/>
+        <HomeAbout/>
+        <Footer/>
       </main>
     </div>
   );
