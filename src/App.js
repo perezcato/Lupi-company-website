@@ -13,16 +13,16 @@ import Footer from './components/Footer';
 function App() {
 
     useEffect(() => {
-        const viewPortHeight = (window.screen.height)/4;
-        const HServices = document.getElementById('homeServices');
-
-        window.onscroll = () => {
-            let HServicesHeight = HServices.getBoundingClientRect().top;
-
-            if(HServicesHeight < viewPortHeight){
-                console.log('reached viewport range');
-            }
-        }
+        // const viewPortHeight = (window.screen.height)/4;
+        // const HServices = document.getElementById('homeServices');
+        //
+        // window.onscroll = () => {
+        //     let HServicesHeight = HServices.getBoundingClientRect().top;
+        //
+        //     if(HServicesHeight < viewPortHeight){
+        //         console.log('reached viewport range');
+        //     }
+        // }
     });
 
   return (

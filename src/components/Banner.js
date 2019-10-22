@@ -60,32 +60,30 @@ export default class Banner extends React.Component{
 
     render(){
         return (
-            <section id="banner" className="banner z-20 h-screen w-full relative">
-                <div className="banner-content absolute z-20 w-full h-screen bg-transparent">
-                    <header className="banner-content__header sticky flex justify-between items-center lg:px-24 lg:py-10">
+            <section id="banner" className="banner z-20 h-screen w-full">
+                <div className="banner-content absolute z-20 w-full h-full bg-transparent">
+                    <header className="banner-content__header sticky flex justify-between items-center px-10 lg:px-24 lg:py-10">
                         <div className="site_name">
                             {/*Add image*/}
                             <h4 className="lg:text-base lg:font-extrabold">Lupi</h4>
                         </div>
-                        <nav>
+                        <nav className="hidden lg:block">
                             <ul className="flex">
                                 <li className="mr-8 font-medium lg:text-base tracking-wider ">Home</li>
                                 <li className="mr-8 font-medium lg:text-base tracking-wider">About</li>
                                 <li className="mr-8 font-medium lg:text-base">Services</li>
-                                <li className="mr-8 font-medium lg:text-base">Contact</li>
+                                <li className="font-medium lg:text-base">Contact</li>
                             </ul>
                         </nav>
                     </header>
-
-                    <div className="content w-full lg:px-24 lg:text-center lg:mt-32">
-                        <h1 className="font-bold uppercase text text-3xl"> Creative people, </h1>
+                    <div className="content w-full lg:px-24 mt-32 text-center xl:mt-32 md:mt-56 lg:mt-16">
+                        <h1 className="font-bold uppercase text text-sm lg:text-3xl"> Creative people, </h1>
                         <h1 className="font-bold uppercase text font-5xl"> innovative ideas, </h1>
-                        <h1 className="font-bold uppercase text text-3xl"> New Technology. </h1>
+                        <h1 className="font-bold uppercase text text-sm lg:text-3xl"> New Technology. </h1>
                     </div>
-
-                    <div className="banner-btn w-full text-xl flex justify-center items-center mt-12 ">
-                        <Button><span className="on"> Get Started </span> </Button>
-                        <Button><span className="on" >Learn More</span></Button>
+                    <div className="banner-btn w-full text-xl  flex justify-center items-center mt-12 ">
+                        <button className="b-btn h-12 w-32 mr-3 outline-none relative"><span className="on"> Get Started </span> </button>
+                        <button className="b-btn h-12 w-32 ml-3 outline-none relative"><span className="on" >Learn More</span></button>
                     </div>
                 </div>
             </section>

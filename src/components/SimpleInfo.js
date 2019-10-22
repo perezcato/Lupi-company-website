@@ -3,8 +3,8 @@ import Button from "./Banner";
 
 
 export default function SimpleInfo() {
-    return (<section className="h-63  w-full flex justify-between  items-center">
-        <div className="section h-full z-3 w-2/4 pr-16 bg-gray-900 relative lg:pl-24 on text-right pt-20">
+    return (<section className="h-65  w-full flex justify-between flex-wrap items-center">
+        <div className="section h-63 z-3 w-full px-10 lg:w-2/4 lg:pr-16 bg-gray-900 relative lg:pl-24 on text-right pt-20">
 
             <h4 className="text-4xl font-medium">Best Design</h4>
             <p className=" text-lg font-light  leading-normal mt-5">
@@ -13,7 +13,7 @@ export default function SimpleInfo() {
                 the finished product which fulfills your purposes.
             </p>
 
-            <div className="banner-btn w-full flex justify-end items-center mt-12 ">
+            <div className="banner-btn w-full flex justify-end items-center mt-6 md:mt-12 ">
                 <button className="b-btn h-12 w-32 outline-none relative">
                     <span className="on text-xl">Learn More </span>
                 </button>
@@ -21,7 +21,7 @@ export default function SimpleInfo() {
 
 
         </div>
-        <div className="section h-full z-3 w-2/4 pl-16 bg-gray-1000 on lg:pr-24 text-left pt-20">
+        <div className="section h-63 z-3 w-full lg:w-2/4 px-10 lg:pl-16 bg-gray-1000 on lg:pr-24 text-left pt-20">
             <h4 className="text-4xl font-medium">Best Codes</h4>
             <p className=" text-base font-light leading-normal mt-5">
                 Our lead engineer will develop an individual structure of your project, which will
@@ -32,8 +32,6 @@ export default function SimpleInfo() {
                 <button className="b-btn  mr-10 h-12 w-32 outline-none relative text-xl"><span className="on">Learn More </span> </button>
             </div>
         </div>
-
-
     </section>)
 
 }

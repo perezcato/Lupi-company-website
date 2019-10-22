@@ -6,7 +6,7 @@ import mobile from "../assets/images/differentiation.svg";
 
 
 export default function WhyUs() {
-    return (<section id="homeServices" className="services h-65 w-full z-20 lg:pt-20 lg:px-24 relative">
+    return (<section id="homeServices" className="services h-65 pb-10  w-full z-20 px-10 lg:pt-5 lg:px-24 relative">
         <div className="services-title w-full text-center">
             <h4 className="uppercase font-bold text-4xl pb-5 on ">Why Choose Us</h4>
             <p className="text-xl">
@@ -15,7 +15,7 @@ export default function WhyUs() {
             </p>
         </div>
 
-        <div className="services-card flex justify-between relative mt-16">
+        <div className="services-card block lg:flex lg:justify-between md:flex md:justify-between flex-wrap relative mt-16">
             <div className="box p-5 on">
                 <div className="icon flex justify-center items-center ">
                     <img src={webDesign} className="w-24 h-24" alt="web design logo"/>
@@ -31,7 +31,7 @@ export default function WhyUs() {
                     </p>
                 </div>
             </div>
-            <div className="box p-5">
+            <div className="box p-5 mt-10 md:mt-0">
                 <div className="icon flex justify-center items-center ">
                     <img src={WebDevelopment} className="w-24 h-24" alt="web design logo"/>
                 </div>
@@ -46,7 +46,7 @@ export default function WhyUs() {
                     </p>
                 </div>
             </div>
-            <div className="box p-5">
+            <div className="box p-5 mt-10 md:mt-10 lg:mt-0">
                 <div className="icon flex justify-center items-center ">
                     <img src={poster} className="w-24 h-24" alt="web design logo"/>
                 </div>
@@ -61,7 +61,7 @@ export default function WhyUs() {
                     </p>
                 </div>
             </div>
-            <div className="box p-5">
+            <div className="box p-5 mt-10 md:mt-10 lg:mt-0">
                 <div className="icon flex justify-center items-center ">
                     <img src={mobile} className="w-24 h-24" alt="web design logo"/>
                 </div>

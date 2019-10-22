@@ -15,6 +15,7 @@ body{
 }
 
 .banner{
+    height: 100vh;
     min-height: 700px;
     box-sizing: border-box;
 }
@@ -322,20 +323,70 @@ canvas {
     -webkit-animation: text-flicker-out-glow 5s linear  both;
     animation: text-flicker-out-glow 5s linear  both;
     font-family: 'Press Start 2P', cursive;
-    line-height: 3.2rem;
+    line-height: 2rem;
 }
 
 .l-nospacing{
-    word-spacing: -1.7rem;
+    word-spacing: -0.6rem;
 }
-
 .font-5xl{
-    font-size: 4rem;
+    font-size: 1.8rem;
+}
+.box {
+    background-color: #060c21;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+
 }
 
 .h-65{
-    height: 40rem;
+    height: 100%;
 }
+
+
+@media (min-width: 768px){
+    .box {
+        background-color: #060c21;
+        height: 20rem;
+        position: relative;
+        width: 48% !important;
+    }
+}
+
+@media(min-width: 1024px) {
+    .l-nospacing{
+        word-spacing: -1.7rem;
+    }
+
+    .box {
+        background-color: #060c21;
+        height: 20rem;
+        position: relative;
+        width: 23% !important;
+
+    }
+
+    .h-65{
+        height: 36rem;
+    }
+
+    .text {
+        -webkit-animation: text-flicker-out-glow 5s linear  both;
+        animation: text-flicker-out-glow 5s linear  both;
+        font-family: 'Press Start 2P', cursive;
+        line-height: 3.2rem;
+    }
+
+    .line-height{
+
+    }
+    .font-5xl{
+        font-size: 3rem;
+    }
+}
+
+
 .h-63{
     height: 27rem;
 }
@@ -357,12 +408,6 @@ canvas {
 }
 .box:before {
     z-index: -1;
-}
-.box {
-    background-color: #060c21;
-    height: 20rem;
-    position: relative;
-    width: 23%;
 }
 .box:after {
     filter: blur(2px);
